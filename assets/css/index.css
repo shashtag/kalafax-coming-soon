@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha|Raleway|Roboto+Condensed&display=swap");
+
+body,
+html {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  background-color: #eeeeee;
+}
+
+.font-neucha {
+  font-family: "Neucha", cursive;
+}
+
+.bg-left {
+  background: white;
+  color: #152238;
+  height: 100vh;
+  background-attachment: fixed;
+  border-right: 20px solid#E1E1E1;
+}
+
+.bg-right {
+  background: #152238;
+  color: white;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 780px) {
+  .bg-left,
+  .bg-right {
+    height: 100vh;
+  }
+
+  .bg-left {
+    border-right: none;
+    border-bottom: 20px solid #00adb5;
+  }
+
+  .put-down {
+    margin-top: 5vh;
+  }
+
+  .put-down-2 {
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .put-down {
+    margin-top: 22vh;
+  }
+
+  .put-down-2 {
+    margin-top: 22vh;
+  }
+}
