@@ -20,6 +20,6 @@ var countdownfunction = setInterval(function () {
     "s ";
   if (distance < 0) {
     clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "A little more time!";
   }
 }, 1000);
