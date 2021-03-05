@@ -27,6 +27,7 @@ html {
 }
 
 @media only screen and (max-width: 780px) {
+
   .bg-left,
   .bg-right {
     height: 100vh;
@@ -54,4 +55,35 @@ html {
   .put-down-2 {
     margin-top: 22vh;
   }
+}
+
+.fa-facebook {
+  color: #3b5998;
+  transition: all .2s ease-in-out;
+}
+
+.fa-twitter {
+  color: #55acee;
+  transition: all .2s ease-in-out;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all .2s ease-in-out;
+}
+
+.fa-linkedin {
+  color: #0A66C2;
+  transition: all .2s ease-in-out;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover {
+  transform: scale(1.1);
 }
